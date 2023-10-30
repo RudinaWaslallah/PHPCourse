@@ -1,8 +1,8 @@
 <?php
 
-function hello(){
+function hello($s){
     
-    $user="noor";
+    $user=$s;
 if($user==="noor"){
     echo "Hello World ". $user;
 }else{
@@ -13,6 +13,6 @@ if($user==="noor"){
 
 
 
-hello();
+hello("Anas");
 
 ?>
