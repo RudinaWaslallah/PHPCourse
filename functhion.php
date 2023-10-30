@@ -14,5 +14,6 @@ if($user==="noor"){
 
 
 hello("Anas");
-
+echo "<br>";
+hello("noor");
 ?>
